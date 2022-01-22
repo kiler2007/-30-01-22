@@ -1,0 +1,144 @@
+body {
+    background: url(../img/d6efdf562e552cf57c7d40c18431af89.jpeg)no-repeat;
+    
+    font-family: Arial, sans-serif;
+    font-family: cursive;
+  font-size: 16px;
+  color: #333;
+    margin: 0;
+    width: 100%;
+
+}
+
+.container{
+	background: #fff;
+	width: 1000px;
+	padding: 14px 40px;
+    margin: 0 auto;
+    box-shadow: 0 0px 69px #ffffff;
+    border-radius: 20px
+	
+	
+}
+;
+img{
+   
+    width: 950px;
+    transition: 2s;
+    border-radius: 20px;
+    transition: 3s;
+    border-radius: 20px;
+}
+    
+ 
+  
+img:hover{
+    border-radius: 20px;
+    transition: 1s;
+}
+
+
+h2 {
+    color: rgb(0, 253, 58);
+    text-align: center;
+    
+    
+    
+    
+    
+}
+
+.btn {
+background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);    
+    text-decoration: none ;
+   
+    padding: 6px 24px;
+    transition: 1s;
+    border-radius: 20px;
+    
+    
+    
+    
+    
+    
+}
+.btn:hover{
+    background:linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+     border-radius: 20px;
+    width: 420PX;
+    
+ 
+   
+}
+h1{
+    
+    
+   color: rgba(39, 255, 0, 0.67);
+    text-align: center;
+    
+}
+
+
+/* Subnav */
+.subnav {
+  display: none;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+  font-size: 14px;
+  
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+
+.kill{
+    
+    
+        
+}
+li{
+    
+}
+
+.menu__link{
+    background: #00ff3b;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.menu__link:hover{
+     background: #ff0000; 
+}
+.menu{
+    text-align: center;
+}
+
+
+/*-----------------адаптивный дезайн--------------*/
+/*max-width:=x<800px*/
+/*max-width:=x>800px*/
+/*width:= 800px*/
+
+@media (max-width:500px){
+ .menu__link{
+    font-size: 25px;
+}
+    img{
+         width: 640px;
+        border-radius: 20px;
+    }
+    .container{
+        width: 700px;
+    }
+    p{
+        font-size: 20px;
+    }
+    a{
+        border-radius: 20px;
+    }
+}7.1Mercz io
